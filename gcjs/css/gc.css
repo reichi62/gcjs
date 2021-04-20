@@ -1,0 +1,120 @@
+/****************************************/
+/***** General **************************/
+/****************************************/
+h1 { font-size: x-large; }
+h2 { 
+  font-size: large;
+  margin: 5px 0px; 
+}
+figure { margin: 0px; }
+.msg_err { color: red; }
+
+/****************************************/
+/***** Dialog ***************************/
+/****************************************/
+#dialog-file-load { padding-bottom: 4px; }
+#dialog-file-save { padding-bottom: 4px; }
+#input-segment { width: 10px; }
+#input-source-segment { width: 10px; }
+#input-target-segment { width: 10px; }
+#input-track { width: 10px; }
+#input-source-track { width: 10px; }
+#input-target-track { width: 10px; }
+.menu_button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  padding: 4px 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;  
+}
+
+/****************************************/
+/***** GPX Info *************************/
+/****************************************/
+#gpxinfo-container { height: 100%; }
+#gpxinfo-header { }
+#gpxinfo-body {
+  height: calc(100% - 60px);
+  overflow: scroll;
+}
+.gpi-headline-container { 
+  padding-top: 5px;
+  display: flex;
+}
+.gpxinfo-track-header {
+  padding: 3px 10px 3px 0px;
+  font-size: 0.8em;
+}
+.gpxinfo-track-data {
+  font-size: 0.8em;
+}
+.gpxinfo-segment-header {
+  padding: 3px 10px 3px 30px;
+  font-size: 0.8em;
+}
+.gpxinfo-segment-data {
+  padding-left: 30px;
+  font-size: 0.8em;
+}
+.gpxinfo-icon {
+  padding-left: 2px;
+}
+.colbar { /* color legend to indicate the segment color*/
+  background-color: black;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  width: 36px;
+}
+.cbBlue { background-color: blue; }
+.cbBlueLight { background-color: #00A2E8; }
+.cbPurple { background-color: #68056A; }
+.cbPurpleLight { background-color: #F609EE; }
+
+/****************************************/
+/***** Waypoint Table *******************/
+/****************************************/
+#waypoints-container { 
+  height: 100%;
+  overflow: scroll;
+}
+#waypoint-table {
+  border-left: 1px solid;
+  border-collapse: collapse;
+  font-size: 0.7em;
+  margin-top: 5px;
+}
+
+#waypoint-table-body {
+  border-left: 1px solid;
+  border-collapse: collapse;
+}
+
+#waypoint-table td {
+  border-right: 1px solid;
+  border-collapse: collapse;
+  padding: 0px 5px 0px 5px;
+}
+#waypoint-table th {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+/*.waypoints {
+  background-color: white;
+  border: solid 1px;
+}*/
+
+/****************************************/
+/***** Map ******************************/
+/****************************************/
+#TheMap { height: 100%; }

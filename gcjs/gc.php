@@ -53,7 +53,7 @@ require_once "classGPXFile.php";
 		<div id='grid-container-toplevel'>
 			<header id='grid-item-header'>
 				<table width='100%'>
-					<tr><td><h1>GPX Companion</h1></td><td align='right'>Version 0.4<br>April 2021</td></tr>
+					<tr><td><h1>GPX Companion</h1></td><td align='right'>Version 0.5<br>April 2021</td></tr>
 				</table>
 			</header>
 			<main id='grid-item-main'>
